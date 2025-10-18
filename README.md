@@ -13,6 +13,11 @@ Hosting Comentario on Railway involves containerizing the application using Dock
 - Providing a privacy-focused commenting solution for content creators
 - Replacing third-party commenting services with a self-hosted alternative
 
+## Dependencies for Comentario Hosting
+
+- [Comentario Docker Image](https://gitlab.com/comentario/comentario) - The official container image
+- [PostgreSQL on Railway](https://docs.railway.app/reference/postgres) - Managed database service
+
 ### Deployment Dependencies
 
 - [Comentario Docker Image](https://gitlab.com/comentario/comentario) - The official container image
