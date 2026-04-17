@@ -3,7 +3,8 @@ FROM registry.gitlab.com/comentario/comentario
 COPY secrets.template.yaml .
 
 RUN apk add --no-cache envsubst
-
+ARG OIDC_KEY
+ARG OIDC_SECRET
 ARG POSTGRES_HOST
 ARG POSTGRES_PORT
 ARG POSTGRES_DATABASE
